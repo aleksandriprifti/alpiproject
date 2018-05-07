@@ -508,5 +508,14 @@ section {
   .navbar-inverse .navbar-nav {
     width: 100%;
     margin: 0; } }
+.modal-body {
+  font-size: 24px;
+  padding-left: 0;
+  transition: padding-left 1s ease-in-out;
+  background: url("../img/home_table_vs1.png") no-repeat top center; }
+
+.modal-body li:hover {
+  padding-left: 20px;
+  color: coral; }
 
 /*# sourceMappingURL=main.css.map */
