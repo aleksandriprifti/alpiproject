@@ -1,0 +1,16 @@
+.section-light{
+
+	li{
+		padding-left:0;
+		transition: padding-left .2s ease-in-out;
+	}
+
+	li a{
+		text-decoration:none;
+	}
+
+	li:hover{
+		padding-left:10px;
+		font-wight:bold;
+	}
+}

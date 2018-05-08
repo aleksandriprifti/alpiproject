@@ -75,9 +75,10 @@ img.device {
   .list-feature li:last-child {
     border: 0; }
   .list-feature span {
-    vertical-align: top;
+    vertical-align: center;
     padding-top: 9px;
-    font-size: 120%; }
+    font-size: 120%;
+    color: #000000; }
   .list-feature i {
     margin-top: -9;
     margin-right: 5px; }
@@ -395,6 +396,15 @@ section {
     height: 50px;
     width: 50px;
     font-size: 30px; }
+
+.section-light li {
+  padding-left: 0;
+  transition: padding-left .2s ease-in-out; }
+.section-light li a {
+  text-decoration: none; }
+.section-light li:hover {
+  padding-left: 10px;
+  font-wight: bold; }
 
 /* Layouts - Page layout, styles */
 /* navbar */
