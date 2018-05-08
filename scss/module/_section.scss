@@ -50,6 +50,14 @@ section{
 
 .section-light{
     @include add-background($nav-background-color);
+
+    h2{
+        color:#000000;
+    }
+
+    .page-header span{
+        color:$nav-text-color;
+    }
 }
 
 .section-dark{
