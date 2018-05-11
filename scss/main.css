@@ -44,7 +44,8 @@ body {
   font-family: "Segoe UI", "Segoe WF", "Segoe Regular", sans-serif;
   font-size: 15px;
   line-height: 1.7em;
-  color: #666666; }
+  color: #666666;
+  background-color: #dfdfdf; }
 
 a {
   color: #00aff0; }
@@ -97,6 +98,19 @@ img.device {
 
 .list-comments img {
   width: 100px; }
+
+.list-item {
+  margin: 55px 0 0 0; }
+
+.list-item li {
+  font-size: 18px;
+  padding-bottom: 20px;
+  color: #000;
+  border-bottom: 1px solid #cccccc; }
+
+.col-md-2 {
+  padding: 0;
+  float: left; }
 
 .fa-2 {
   font-size: 18px; }
@@ -321,7 +335,8 @@ section {
   color: #ffffff; }
 
 .section-primary-main {
-  border-top: 4px solid #f4723a; }
+  border-top: 4px solid #f4723a;
+  margin-top: 65px; }
 
 .section-primary-a {
   border-top: 4px solid #57be2b; }
@@ -344,6 +359,10 @@ section {
 .section-dark {
   background: #2b5464;
   color: #ffffff; }
+
+.galery-primary {
+  color: #000000;
+  text-align: center; }
 
 /* Carousel*/
 .carousel {

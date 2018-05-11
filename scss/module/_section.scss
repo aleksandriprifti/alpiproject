@@ -32,6 +32,7 @@ section{
 .section-primary-main{
     @extend .section-primary;
     @include add-border(4px, $nav-text-color, top);
+    margin-top:65px;
 }
 
 .section-primary-a{
@@ -62,4 +63,9 @@ section{
 
 .section-dark{
     @include add-background($dark-color);
+}
+
+.galery-primary{
+    color:#000000;
+    text-align:center;
 }
